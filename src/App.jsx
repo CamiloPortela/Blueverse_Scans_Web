@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import MangaDetails from "./pages/MangaDetails";
 import Footer from './components/Footer';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="/acerca" element={<About />} />
         <Route path="/contacto" element={<Contact />} />
         <Route path="/manga/:id" element={<MangaDetails />} />
-        
+        <Route path="/login" element={<Login />} />
       </Routes>
       <Footer />
     </div>

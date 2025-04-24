@@ -8,8 +8,7 @@ function Navbar() {
         <div>
           <Link to="/" className="mr-4 hover:underline">Inicio</Link>
           <Link to="/capitulos" className="mr-4 hover:underline">Capítulos</Link>
-          <Link to="/acerca" className="hover:underline">Sobre BVS</Link>
-          <Link to="/contacto" className="hover:underline">Contacto</Link>
+          <Link to="/login" className="mr-4 hover:underline">Login</Link>
         </div>
       </div>
     </nav>
