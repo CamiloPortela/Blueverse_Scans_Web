@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Chapters from "./pages/Chapters";
+import History from "./pages/History";
 import Reader from "./pages/Reader";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/capitulos" element={<Chapters />} />
+        <Route path="/historial" element={<History />} />
         <Route path="/lectura/:id" element={<Reader />} />
         <Route path="/acerca" element={<About />} />
         <Route path="/contacto" element={<Contact />} />

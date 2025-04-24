@@ -13,12 +13,10 @@ function Home() {
         />
       </div>
 
-      {/* Título */}
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">
         Mangas y Cómics Disponibles
       </h2>
 
-      {/* Grilla de mangas/cómics */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
         {mangas.map((manga) => (
           <MangaCard

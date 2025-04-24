@@ -7,8 +7,8 @@ function Navbar() {
         <Link to="/" className="text-2xl font-semibold">Blueverse Scans</Link>
         <div>
           <Link to="/" className="mr-4 hover:underline">Inicio</Link>
-          <Link to="/capitulos" className="mr-4 hover:underline">Capítulos</Link>
           <Link to="/login" className="mr-4 hover:underline">Login</Link>
+          <Link to="/historial" className="mr-4 hover:underline">Historial de capítulos</Link>
         </div>
       </div>
     </nav>
