@@ -1,6 +1,6 @@
 function Contact() {
     return (
-      <div className="p-6 bg-gray-100 min-h-screen">
+      <div className="p-6 bg-[#99a2b8] min-h-screen">
         <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">Contacto / Unirse al Scan</h2>
   
         <div className="max-w-4xl mx-auto bg-white p-6 rounded shadow-md">

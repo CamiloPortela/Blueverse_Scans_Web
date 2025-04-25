@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 body {
-    @apply bg-gray-950 text-white;
-    font-family: 'League Spartan', sans-serif;
-  }
-  
-  a {
-    @apply text-blue-400 hover:text-blue-500 transition duration-200;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
-  }
+  @apply text-white;
+  background-color: #99a2b8;
+  font-family: 'League Spartan', sans-serif;
+}
+
+a {
+  @apply text-blue-400 hover:text-blue-500 transition duration-200;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}

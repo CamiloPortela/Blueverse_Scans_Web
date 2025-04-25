@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-blue-600 p-4 text-white">
+    <nav className="bg-gray-900 p-4 text-white">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-semibold">Blueverse Scans</Link>
         <div>
@@ -16,4 +16,3 @@ function Navbar() {
 }
 
 export default Navbar;
-  
